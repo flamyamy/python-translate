@@ -8,7 +8,7 @@ def translate_to_turkish(text):
         text (str): The English text to be translated.
 
     Returns:
-        str: The translated Spanish text.
+        str: The translated Turkish text.
     """
     translator = Translator()
     translation = translator.translate(text, src='en', dest='tr')
